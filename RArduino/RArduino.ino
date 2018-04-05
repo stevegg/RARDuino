@@ -76,7 +76,6 @@ void setup() {
 
   Serial.println("Starting init...");
 
-  /*
   // INITIALIZE TIMER INTERRUPTS
   cli(); // disable global interrupts
 
@@ -92,7 +91,7 @@ void setup() {
   TIMSK1 |= (1 << OCIE1A); // enable timer compare interrupt
 
   sei(); // enable global interrupts
-  */
+
   Serial.print("freeMemory()=");
   Serial.println(freeMemory());
 
